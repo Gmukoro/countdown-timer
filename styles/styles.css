@@ -1,0 +1,92 @@
+body {
+   text-align: center;
+   background: #232425;
+   font-family: sans-serif;
+   font-weight: 100;
+}
+
+h1 {
+   color: #fff;
+   font-weight: 100;
+   font-size: 30px;
+   margin: 40px 0px 20px;
+}
+
+h2 {
+   color: #fff;
+   font-weight: 100;
+   font-size: 20px;
+   text-align: center;
+}
+.countdown {
+   font-family: sans-serif;
+   color: #fff;
+   display: inline-block;
+   font-weight: 100;
+   text-align: center;
+   font-size: 20px;
+}
+#endtime {
+   padding: 5px;
+   width: 200px;
+   font-size: 12px;
+}
+.countdown-content {
+   padding: 10px;
+   border-radius: 3px;
+   background: #4c4c4c;
+   display: none;
+}
+.countdown-content span {
+   padding: 15px;
+   border-radius: 3px;
+   background: #c00;
+   display: inline-block;
+}
+.btn {
+   display: block;
+   padding: 3px 20px;
+   margin: 10px auto;
+   outline: none;
+   border: none;
+   background: #c00;
+   font-size: 16px;
+   font-weight: bold;
+   color: #232425;
+   cursor: pointer;
+}
+a {
+   display: inline-block;
+   color: #fff;
+   font-size: 20px;
+   padding: 20px;
+   background: #fff;
+   border-radius: 10px;
+   text-decoration: none;
+}
+
+a:hover {
+   background: #fff;
+}
+.btn:hover {
+   background: #c00;
+}
+.btn-disabled {
+   cursor: default;
+   pointer-events: none;
+   background: #ccc;
+}
+.smalltext {
+   padding-top: 5px;
+   font-size: 16px;
+}
+
+footer {
+   font-size: 12px;
+   clear: both;
+   text-align: center;
+   margin-top: auto;
+   margin-right: auto;
+   margin-bottom: auto;
+   margin-left: auto;
+}

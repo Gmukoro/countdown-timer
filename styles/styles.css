@@ -37,11 +37,11 @@ h2 {
    background: #4c4c4c;
    display: none;
 }
-.countdown-content span {
+.countdown-content span > {
    padding: 15px;
    border-radius: 3px;
    background: #c00;
-   display: inline-block;
+   display: none;
 }
 .btn {
    display: block;

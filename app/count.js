@@ -20,13 +20,14 @@ startBtn.onclick = function () {
       alert("Please enter date！");
       return false;
    }
+   document.getElementById("count").style.display = "none";
+   document.getElementById("count").onclick = function () {
+      fun();
+   };
+   document.getElementById("countdown-content").style.display = "inline-block";
    document.getElementById("countdown-content").onclick = function () {
       fun();
    };
-   function fun() {
-      document.getElementById("countdown-content").style.display =
-         "inline-block";
-   }
    countDown();
    timer = setInterval(countDown, 1000);
 };
